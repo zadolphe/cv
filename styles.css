@@ -1,0 +1,162 @@
+body{
+  background-color: #eeeeee;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+body {
+  margin: 0;
+}
+p{
+  line-height: 2;
+}
+h1 {
+  font-size: 362.5%; /* default is 25px so if you want larger and able to change 90/25 = 500%*/
+  margin-top: 10px;
+  color: #66BFBF;
+  line-height: 2;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 2.5rem;  /* 40px/16px(standard = 2.5 em) */
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+}
+hr{
+  border-top: 10px dotted grey;
+  border-bottom: none;
+  width: 10%;
+  border-left: none;
+  border-right: none;
+  margin-top: 25px;
+}
+a{
+   margin: 10px 20px;
+   color: #1199E;
+   font-family: 'Merriweather', serif;
+   text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.job-intro{
+  font-size: 2.0rem;
+}
+.name-intro {
+  position: relative;
+  padding-top: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.cloud-text{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.cloud-above-mountains{
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+.mountain{
+  position: relative;
+  left: 0;
+  display: inline-block;
+}
+.profile-photo{
+  margin-top: 50px;
+  width: 15%;
+}
+.middle-container{
+  text-align: center;
+  margin-top: 25px;
+}
+.projects{
+  margin: auto;
+  width: 40%;
+}
+.skills-header{
+  color: #11999E;
+}
+.software-development-photo{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 25px auto 150px;
+  text-align: left;
+  line-height: 2;
+}
+.data-science-photo{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.cybersecurity-photo{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.contact-message{
+  margin: 30px auto;
+  width: 40%;
+}
+.Dev{
+  text-decoration: underline;
+}
+/* https://cssbuttoncreator.com/ is where you can create a button */
+.BUTTON_MSF {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 30px;
+   font-weight: 100;
+   padding: 20px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.BUTTON_MSF:hover {
+   border: solid #2BC4AD 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #3D94F6);
+   background-image: -moz-linear-gradient(top, #30E3CB, #3D94F6);
+   background-image: -ms-linear-gradient(top, #30E3CB, #3D94F6);
+   background-image: -o-linear-gradient(top, #30E3CB, #3D94F6);
+   background-image: linear-gradient(to bottom, #30E3CB, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 10px;
+  padding: 30px 0 20px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin-top: 20px 0;
+}
